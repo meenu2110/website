@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CONTACT</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<header>
+    <h1><u>HTML</u></h1>
+    <marquee width="60%" direction="left to right">
+        Welcome to my website!!
+     </marquee>
+</header>
+<link rel="stylesheet" href="style.css">
+<body>
+    <body>
+        <a href="day 1.html">day 1</a>
+        <a href="day 2.html">day 2</a>
+        <a href="day 3.html">day 3</a>
+        <a href="contact.html">contact</a>
+    </body>
+    <main>
+        <section>
+            <h2>Please enter your details:</h2>
+            <form action="#" method="post">
+                <label for="name">Full Name:</label>
+                <input type="text" id="name" name="name" required placeholder="Enter full name"
+                pattern="^[a-zA-Z\s]+$" title="Name should only contain letters and spaces">
+                <span id="nameError" class="error-message"></span>
+                <br><br>
+
+                <label for="phone">moblie Number:</label>
+                <input type="number" id="phone" name="phone" required placeholder="Enter your phone number"
+                pattern="^\d{10}$" title="Phone number should be 10 digits without spaces or dashes.">
+                <br><br>
+
+                <label for="email">Email Address:</label>
+                <input type="email" id="email" name="email" required placeholder="Enter your email address">
+                <br><br>
+
+                <button type="sign in">sign in</button>
+            </form>
+        </section>
+    </main>
+    <style>
+        form {
+            background-color: rgb(224, 163, 139);
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(243, 147, 103, 0.1);
+            max-width: 400px;
+            margin: 0 auto;
+        }
+
+        label {
+            font-weight: bold;
+            display: block;
+            margin-bottom: 5px;
+        }
+
+        input {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+
+        input[type="tele"] {
+            background-color: #f9f9f9;
+        }
+
+        button {
+             background-color: #6b54f1;
+             color: white;
+             padding: 10px 20px;
+             border: none;
+             border-radius: 4px;
+             cursor: pointer;
+             width: 100%;
+             font-size: 16px;
+        }
+
+        button:hover {
+             background-color: #e6825b;
+            }
+    </style>
+    <style>
+        body{
+        background-image:"pic.jpg";
+        
+        }
+        header{
+        background-color: rgb(243, 187, 142);
+        text-align:center;
+        font-size:xx-large;
+        font-family:Arial, Helvetica, sans-serif;
+        color: rgb(5, 3, 2);
+    }
+    footer{
+        background-color: rgb(243, 187, 142);
+        text-align:center;
+        font-size:xx-large;
+        font-family:Arial, Helvetica, sans-serif;
+    }
+    </style>
+<footer>
+    <B><I>THANK YOU</I></B>
+</footer>
+</body>
+</html>
